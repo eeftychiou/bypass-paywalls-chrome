@@ -24,6 +24,7 @@ const defaultSites = {
   'Eindhovens Dagblad': 'ed.nl',
   'El Pais': 'elpais.com',
   'Encyclopedia Britannica': 'britannica.com',
+  'EUObserver': 'euobserver.com',
   'Examiner': 'examiner.com.au',
   'Financial News': 'fnlondon.com',
   'Financial Times': 'ft.com',

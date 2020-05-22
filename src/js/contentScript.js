@@ -304,7 +304,10 @@ if (matchDomain('rep.repubblica.it')) {
 } else if (matchDomain('hbr.org')) {
   const banner = document.querySelector('.persistent-banner');
   removeDOMElement(banner);
-}
+} else if (matchDomain('euobserver.com')) {
+  const banner = document.querySelector('#article > div.body.larger > div.v1.wide.membership-upsell.show');
+  removeDOMElement(cookieBanner);
+} 
 
 function matchDomain (domains) {
   const hostname = window.location.hostname;

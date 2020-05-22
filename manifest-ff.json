@@ -219,7 +219,8 @@
     "*://*.washingtonpost.com/*",
     "*://*.wired.com/*",
     "*://*.wsj.com/*",
-    "*://*.nzz.ch/*"
+    "*://*.nzz.ch/*",
+	"*://*.euobserver.com/*"
   ],
   "version": "1.7.1"
 }
